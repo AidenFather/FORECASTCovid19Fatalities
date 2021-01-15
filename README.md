@@ -10,10 +10,11 @@ Many medical research studies have explored and investigated the relationship be
 ## Dataset
 US COVID-19 data was obtained from [covidtracking.com](covidtracking.com). The dataset includes the cumulative records of daily test numbers, new cases, deaths, hospitalized patients, etc. Then, I performed simple feature engineering to extract non-cumulative daily statistics from the dataset. Note that the obtained dataset period is between January 22, 2020, when the first COVID-19 case was confirmed and reported to CDC, and October 19, 2020. Overall, the original dataset includes 272 records and 10 features
 
-
+![Daily New Cases](./COVID-19_Daily_New_Case.png)
 ## Time Series Model Development
 
 
 ## Forecast Result
 
-## Conclusion
+## Notebook
+Forecast_COVID-19_Fatalities.ipynb
